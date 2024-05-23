@@ -31,7 +31,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="home"
-              span={true}
+              span={"true"}
               smooth={true}
               activeClass="active"
             >
@@ -42,7 +42,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="programe"
-              span={true}
+              span={"true"}
               smooth={true}
             >
               programe
@@ -53,7 +53,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="reasons"
-              span={true}
+              span={"true"}
               smooth={true}
             >
               wy us
@@ -64,7 +64,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="plans"
-              span={true}
+              span={"true"}
               smooth={true}
             >
               plans
@@ -74,7 +74,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="testemonials"
-              span={true}
+              span={"true"}
               smooth={true}
             >
               testemonials

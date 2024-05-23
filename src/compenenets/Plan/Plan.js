@@ -15,21 +15,21 @@ const Plan = () => {
       </div>
       {/* plans card*/}
       <div className="plans">
-        {plansData.map((plan, key) => (
-          <div className="plan" key={key}>
+        {plansData.map((plan, index) => (
+          <div className="plan" key={index}>
             {plan.icon}
             <span>{plan.name}</span>
             <span>${plan.price}</span>
             <div className="features">
               {plan.features.map((feature, key) => (
-                <div className="feature">
+                <div className="feature" key={key}>
                   <img src={whiteTick} alt="" />
                   <span key={key}>{feature}</span>
                 </div>
               ))}
             </div>
             <div>
-              <span>see more benefits -></span>
+              <span>see more benefits -{">"}</span>
             </div>
             <button className="btn">join now</button>
           </div>
